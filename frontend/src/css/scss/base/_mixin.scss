@@ -1,0 +1,9 @@
+
+
+@mixin discrete-link() {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}

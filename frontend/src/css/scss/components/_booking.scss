@@ -1,0 +1,55 @@
+.booking {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+
+  &__container {
+    background-color: $color-neutral-white;
+    border: solid 2px $color-brand-primary;
+    height: 500px;
+    margin: 2rem auto;
+    width: 80%;
+  }
+  &__title {
+    color: $color-brand-primary;
+  }
+
+  &__weeknav{
+    border-bottom:1px solid $color-neutral-e4 ;
+    display: flex;
+    justify-content: center;
+    
+    &__btn{
+        background-color: transparent;
+        border: none;
+        margin: 0 2rem;
+    }
+  }
+  &__inner{
+    &__lista{
+      list-style-type: disc !important;
+    }
+    &__item{
+      margin: 2rem 0rem;
+      display: flex;
+      align-items: center;
+
+    }
+    &__text{
+      font-family: $font-family-regular;
+      font-size: 20px;
+    }
+    &__btn{
+      font-size: 0.8rem;
+      margin-left: 0.5rem;
+      padding:0.2rem 1rem;
+    }
+  }
+
+  &__btn {
+    font-size: 1.7rem;
+    padding: 1em 3em 1.2em;
+  }
+}

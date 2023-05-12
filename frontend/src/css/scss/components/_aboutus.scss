@@ -1,0 +1,53 @@
+img {
+  border: 1px solid red;
+  height: 250px;
+  width: 250px;
+}
+.aboutus {
+  &__container {
+    margin-bottom: 10rem;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    p {
+      width: 60%;
+    }
+    img {
+      border: 1px solid red;
+      height: 250px;
+      width: 250px;
+    }
+  }
+  &__lesson {
+    margin: 8rem 0;
+    &__img {
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+  &__profile {
+    margin: 8rem auto;
+    width: 80%;
+    &__inner {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 7rem;
+      span {
+        width: 70%;
+        h3 {
+          font-size: 2rem;
+        }
+      }
+      img {
+        border: 1px solid red;
+        height: 300px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+        width: 300px;
+      }
+    }
+  }
+}

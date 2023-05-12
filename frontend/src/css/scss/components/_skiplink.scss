@@ -1,0 +1,18 @@
+.skiplink {
+    background-color: $color-neutral-white;
+    color: $color-brand-primary;
+    display: inline-block;
+    font-size: 1.3rem;
+    left: -999px;
+    margin: 0.5rem;
+    padding: 1.25rem 2.5rem;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+
+    &:focus {
+        left: 0;
+        outline-color: $color-brand-blue;
+        outline-offset: -2px;
+    }
+}

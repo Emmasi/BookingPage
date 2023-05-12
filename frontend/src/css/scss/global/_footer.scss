@@ -1,0 +1,21 @@
+.footer {
+  background-color: $color-brand-primary;
+  display: flex;
+  justify-content: space-around;
+  min-height: 7rem;
+  margin-top: 10rem;
+  padding: $spacing;
+  &__container {
+    padding: 2rem;
+  }
+  &__item {
+    color: $color-neutral-white;
+    &--link {
+        @include discrete-link;
+      padding: 0 $spacing;
+    }
+    &--adress {
+        font-family: $font-family-regular;
+    }
+  }
+}

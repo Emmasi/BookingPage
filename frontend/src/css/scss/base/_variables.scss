@@ -1,0 +1,29 @@
+// :root {
+//     --color-primary: #{$color-brand-blue};
+//     --color-secondary: #{$color-brand-darkblue};
+//     --card-bg: #{$color-brand-pink};
+//     --card-color: #{$color-neutral-black};
+//     --pre-heading-color: #{$color-brand-red};
+//     --body-bg: #{$color-neutral-white};
+//     --link-list-bg: var(--color-secondary);
+//     --link-list-bg-icon: #{$color-neutral-white};
+//     --video-desc-bg: #{$color-brand-pink};
+//     --video-desc-p: 1.5rem;
+//     --bs-gutter-x: #{$spacing};
+//     --bs-gutter-y: #{$spacing};
+// }
+
+$content-width-sm: 540px;
+$content-width-md: 820px;
+$content-width-lg: 1230px;
+$content-width-xl: 1440px;
+
+// Typography
+$font-family-regular: "FuturaBT", "Helvetica", "arial-adjusted", "Arial", sans-serif;
+$font-family-bold: "FuturaBT-Bold", "Helvetica", "Arial", sans-serif;
+$font-family-heavy: "FuturaBT-Heavy", "Helvetica", "Arial", sans-serif;
+$font-family-secondary: serif;
+
+//space
+$spacing:3rem;
+$big-spacing:10rem;

@@ -1,0 +1,27 @@
+.header {
+  &__top {
+    align-items: center;
+    background-color: $color-brand-primary;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: $spacing;
+    padding-right: $spacing;
+
+    a {
+      color: $color-neutral-white;
+      margin: 0.5rem 0;
+      padding-left: $spacing;
+      padding-right: $spacing;
+    }
+  }
+
+  &__container {
+    align-items: center;
+    background-color: $color-brand-blue-light;
+    display: flex;
+    justify-content: space-between;
+    padding-left: $spacing;
+    padding-right: $spacing;
+  }
+}
+

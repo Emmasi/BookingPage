@@ -1,0 +1,20 @@
+.menu {
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  &__item {
+    a {
+      @include discrete-link;
+      color: $color-neutral-black;
+      font-size: 1.25rem;
+      padding: 0.75rem 2rem;
+      width: 100%;
+    }
+  }
+}

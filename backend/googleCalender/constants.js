@@ -1,0 +1,1 @@
+module.exports.CALENDAR_ID = "stjarnhasten123@gmail.com"
