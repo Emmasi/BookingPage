@@ -8,7 +8,7 @@
   &__container {
     background-color: $color-neutral-white;
     border: solid 2px $color-brand-primary;
-    height: 500px;
+    height: 31.25;
     margin: 2rem auto;
     width: 80%;
   }
@@ -28,6 +28,8 @@
     }
   }
   &__inner{
+    height: 27.813rem;
+    overflow: auto;
     &__lista{
       list-style-type: disc !important;
     }

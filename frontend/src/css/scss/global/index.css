@@ -141,4 +141,56 @@ button:focus, button:hover {
   padding-left: 3rem;
   padding-right: 3rem;
 }
+
+.navbar {
+  min-height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.navbar__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  padding: 0.75rem 2rem;
+  width: 100%;
+}
+
+.navbar__item a:hover, .navbar__item a:focus {
+  text-decoration: underline;
+}
+
+.navbar__item a button {
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-weight: normal;
+  font-family: "FuturaBT", "Helvetica", "arial-adjusted", "Arial", sans-serif;
+  font-size: 1.25rem;
+}
+
+.navbar__item a button:hover {
+  background-color: transparent;
+  color: black;
+  text-decoration: underline;
+}
+
+.focus-color {
+  background-color: white;
+}
 /*# sourceMappingURL=index.css.map */

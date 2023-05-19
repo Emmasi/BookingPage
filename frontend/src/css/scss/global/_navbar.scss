@@ -1,0 +1,38 @@
+.navbar {
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  &__item {
+    a {
+      @include discrete-link;
+      color: $color-neutral-black;
+      font-size: 1.25rem;
+      padding: 0.75rem 2rem;
+      width: 100%;
+      button {
+        border: none;
+        background-color: transparent;
+        color: $color-neutral-black;
+        font-weight: normal;
+        font-family: $font-family-regular;
+        font-size: 1.25rem;
+        &:hover {
+          background-color: transparent;
+          color: black;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+}
+.focus-color {
+  background-color: $color-neutral-white;
+}

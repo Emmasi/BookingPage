@@ -1,4 +1,4 @@
-import Menu from "../menu";
+import Menu from "./navbar"
 import React from "react";
 import Skiplink from "../skiplink";
 

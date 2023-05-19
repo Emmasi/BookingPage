@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Om oss",
+    "link": "/Aboutus",
+    "submenu": [
+      { "title": "Om oss", "link": "aboutus" },
+      { "title": "Lektion ", "link": "lesson" },
+      { "title": "Personal", "link": "staff" }
+    ]
+  },
+  {
+    "title": "Hästar",
+    "link": "/Horses",
+    "submenu": [
+      { "title": "Våra hästar", "link": "" },
+      { "title": "Rida i skogen", "link": "" },
+      { "title": "Rida i hagen", "link": "" }
+    ]
+  },
+  {
+    "title": "Boka lektion",
+    "link": "/Booking"
+  },
+  {
+    "title": "Priser",
+    "link": "/Prices"
+  },
+  {
+    "title": "Hitta hit",
+    "link": "/Contact"
+  }
+]

@@ -1,0 +1,15 @@
+.dropdown {
+  display: none;
+  margin-top: 0.5rem;
+  &.show {
+    background-color: $color-neutral-white;
+    display: block;
+    list-style: none;
+    position: absolute;
+    padding: 0 0.08rem;
+    min-width: 5rem;
+  }
+  &__items {
+    padding: 1rem 0;
+  }
+}

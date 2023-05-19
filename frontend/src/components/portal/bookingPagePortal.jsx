@@ -2,7 +2,7 @@ import React from "react";
 import ReactDom from "react-dom";
 import { useState } from "react";
 
-const bookingPagePortal = ({
+const useBookingPagePortal = ({
   Title,
   starTime,
   endTime,
@@ -10,12 +10,12 @@ const bookingPagePortal = ({
   isOpen,
   onClose,
 }) => {
-  if (!isOpen) return null;
   const [formData, setFormData] = useState({
     name: "",
     mobile: "",
     email: "",
   });
+  if (!isOpen) return null;
   const [date, time] = starTime.split("T");
   const timeDataStart = `${time.slice(0, 5)}`;
   const timeDataEnd = `${endTime.slice(11, 16)}`;
@@ -103,4 +103,4 @@ const bookingPagePortal = ({
     document.body
   );
 };
-export default bookingPagePortal;
+export default useBookingPagePortal;

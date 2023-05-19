@@ -148,36 +148,6 @@ img {
   width: 300px;
 }
 
-.menu {
-  min-height: 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu__list {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-}
-
-.menu__item a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.25rem;
-  padding: 0.75rem 2rem;
-  width: 100%;
-}
-
-.menu__item a:hover, .menu__item a:focus {
-  text-decoration: underline;
-}
-
 .booking {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -198,7 +168,7 @@ img {
 .booking__container {
   background-color: white;
   border: solid 2px #0E787C;
-  height: 500px;
+  height: 31.25;
   margin: 2rem auto;
   width: 80%;
 }
@@ -221,6 +191,11 @@ img {
   background-color: transparent;
   border: none;
   margin: 0 2rem;
+}
+
+.booking__inner {
+  height: 27.813rem;
+  overflow: auto;
 }
 
 .booking__inner__lista {
@@ -332,5 +307,58 @@ img {
   left: 0;
   outline-color: #66BFBF;
   outline-offset: -2px;
+}
+
+.dropdown {
+  display: none;
+  margin-top: 0.5rem;
+}
+
+.dropdown.show {
+  background-color: white;
+  display: block;
+  list-style: none;
+  position: absolute;
+  padding: 0 0.08rem;
+  min-width: 5rem;
+}
+
+.dropdown__items {
+  padding: 1rem 0;
+}
+
+.horses__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.horses__horse {
+  margin: 5rem 0;
+}
+
+.horses__horse__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.horses__horse__inner p {
+  margin: 0 2rem;
+  max-width: 20rem;
+}
+
+.horses__img img {
+  margin: 3rem;
 }
 /*# sourceMappingURL=index.css.map */

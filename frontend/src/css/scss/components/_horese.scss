@@ -1,0 +1,23 @@
+.horses {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__horse {
+    margin: 5rem 0;
+    &__inner {
+      display: flex;
+      p {
+        margin: 0 2rem;
+        max-width: 20rem;
+      }
+    }
+  }
+  &__img {
+    img {
+      margin: 3rem;
+    }
+  }
+}

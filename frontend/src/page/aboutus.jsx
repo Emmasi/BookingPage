@@ -3,7 +3,7 @@ function Aboutus() {
   return (
     <main id="main-content">
       <h1 className="aboutus__title">Om oss</h1>
-      <div className="aboutus">
+      <div className="aboutus" id="aboutus">
         <div className="aboutus__container">
           <div className="aboutus__inner">
             <p>
@@ -32,7 +32,7 @@ function Aboutus() {
             </p>
           </div>
         </div>
-        <div className="aboutus__lesson">
+        <div className="aboutus__lesson" id="lesson">
           <h2>Rida hos oss </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
@@ -42,7 +42,7 @@ function Aboutus() {
           </p>
           <div className="aboutus__lesson__img"><img /><img /><img /></div>
         </div>
-        <div className="aboutus__profile">
+        <div className="aboutus__profile" id="staff">
           <h2>Vi som jobbar här</h2>
           <div className="aboutus__profile__inner">
             <span>
